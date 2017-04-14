@@ -1,0 +1,18 @@
+<div> 
+<table class = "table table-striped">
+	<tr>
+		<th>Nome</th>
+		<th>Cpf</th>
+		<th>Sexo</th>
+	</tr>
+	<tr ng-repeat = "pessoa in pessoas">
+	<td>
+		<td>{{pessoa.nome}}</td>
+		<td>{{pessoa.cpf}}</td>
+		<td>{{pessoa.sexo}}</td>
+	</td>
+
+	</tr>
+</table>
+<button class="btn" ng-click="goCadastrarPessoa()">Cadastrar Pessoa</button>
+</div>
